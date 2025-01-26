@@ -33,7 +33,7 @@ export function paymentSummary(){
       <div>Order total:</div>
       <div class="payment-summary-money js-order-total-summary"></div>
     </div>
-    <a href="order.html">
+    <a href="orders.html">
       <button class="place-order-button button-primary">
         Place your order
       </button>  
