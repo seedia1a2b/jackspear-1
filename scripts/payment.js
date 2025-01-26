@@ -33,10 +33,12 @@ export function paymentSummary(){
       <div>Order total:</div>
       <div class="payment-summary-money js-order-total-summary"></div>
     </div>
-
-    <button class="place-order-button button-primary">
-      Place your order
-    </button>      
+    <a href="order.html">
+      <button class="place-order-button button-primary">
+        Place your order
+      </button>  
+    </a>
+        
   `
   updatePayment();
   updatePaymentCart();
